@@ -1679,54 +1679,54 @@ xl:  1280px  /* Extra large devices */
 
 ## 13. Lista de Tarefas
 
-### Sprint 0: Setup Inicial e Configuração (Semana 1)
+### Sprint 0: Setup Inicial e Configuração (Semana 1) ✅ COMPLETO
 
 #### Tarefa 1: Configuração do Ambiente de Desenvolvimento
 - [X] **1.1** Instalar Python 3.13+ no ambiente
 - [X] **1.2** Criar virtualenv do projeto: `python -m venv venv`
 - [X] **1.3** Ativar virtualenv e instalar Django: `pip install django`
 - [X] **1.4** Criar projeto Django: `django-admin startproject core .`
-- [ ] **1.5** Instalar dependências iniciais: `pip install pillow python-decouple`
+- [X] **1.5** Instalar dependências iniciais: `pip install pillow python-decouple`
 - [X] **1.6** Criar arquivo requirements.txt: `pip freeze > requirements.txt`
 - [X] **1.7** Configurar .gitignore (venv/, *.pyc, db.sqlite3, .env)
-- [ ] **1.8** Inicializar repositório Git: `git init`
-- [ ] **1.9** Primeiro commit: "Initial project setup"
+- [X] **1.8** Inicializar repositório Git: `git init`
+- [X] **1.9** Primeiro commit: "Initial project setup"
 
 #### Tarefa 2: Configuração do TailwindCSS
-- [ ] **2.1** Instalar Node.js e npm no ambiente
-- [ ] **2.2** Inicializar npm no projeto: `npm init -y`
-- [ ] **2.3** Instalar TailwindCSS: `npm install -D tailwindcss`
-- [ ] **2.4** Inicializar Tailwind: `npx tailwindcss init`
-- [ ] **2.5** Configurar tailwind.config.js com paths dos templates Django
-- [ ] **2.6** Criar arquivo static/src/input.css com diretivas @tailwind
-- [ ] **2.7** Criar script de build no package.json
-- [ ] **2.8** Adicionar node_modules/ ao .gitignore
-- [ ] **2.9** Gerar primeiro build CSS: `npm run build`
-- [ ] **2.10** Testar carregamento do CSS em template base
+- [X] **2.1** Instalar Node.js e npm no ambiente
+- [X] **2.2** Inicializar npm no projeto: `npm init -y`
+- [X] **2.3** Instalar TailwindCSS: `npm install -D tailwindcss`
+- [X] **2.4** Inicializar Tailwind: `npx tailwindcss init`
+- [X] **2.5** Configurar tailwind.config.js com paths dos templates Django
+- [X] **2.6** Criar arquivo static/src/input.css com diretivas @tailwind
+- [X] **2.7** Criar script de build no package.json
+- [X] **2.8** Adicionar node_modules/ ao .gitignore
+- [X] **2.9** Gerar primeiro build CSS: `npm run build`
+- [X] **2.10** Testar carregamento do CSS em template base
 
 #### Tarefa 3: Estrutura de Diretórios do Projeto
-- [ ] **3.1** Criar diretório templates/ na raiz do projeto
-- [ ] **3.2** Criar diretório static/ na raiz (css/, js/, images/)
-- [ ] **3.3** Criar diretório media/ para uploads futuros
-- [ ] **3.4** Configurar TEMPLATES em settings.py apontando para templates/
-- [ ] **3.5** Configurar STATIC_URL e STATICFILES_DIRS em settings.py
-- [ ] **3.6** Configurar MEDIA_URL e MEDIA_ROOT em settings.py
-- [ ] **3.7** Criar estrutura: templates/base.html, templates/partials/
-- [ ] **3.8** Criar templates/public/ para landing page
-- [ ] **3.9** Criar templates/dashboard/ para área autenticada
-- [ ] **3.10** Testar servir arquivos estáticos localmente
+- [X] **3.1** Criar diretório templates/ na raiz do projeto
+- [X] **3.2** Criar diretório static/ na raiz (css/, js/, images/)
+- [X] **3.3** Criar diretório media/ para uploads futuros
+- [X] **3.4** Configurar TEMPLATES em settings.py apontando para templates/
+- [X] **3.5** Configurar STATIC_URL e STATICFILES_DIRS em settings.py
+- [X] **3.6** Configurar MEDIA_URL e MEDIA_ROOT em settings.py
+- [X] **3.7** Criar estrutura: templates/base.html, templates/partials/
+- [X] **3.8** Criar templates/public/ para landing page
+- [X] **3.9** Criar templates/dashboard/ para área autenticada
+- [X] **3.10** Testar servir arquivos estáticos localmente
 
 #### Tarefa 4: Configurações Básicas do Django
-- [ ] **4.1** Configurar LANGUAGE_CODE = 'pt-br' em settings.py
-- [ ] **4.2** Configurar TIME_ZONE = 'America/Sao_Paulo' em settings.py
-- [ ] **4.3** Configurar USE_I18N = True e USE_L10N = True
-- [ ] **4.4** Adicionar django.contrib.humanize ao INSTALLED_APPS
-- [ ] **4.5** Configurar SECRET_KEY usando python-decouple
-- [ ] **4.6** Criar arquivo .env.example com variáveis necessárias
-- [ ] **4.7** Configurar DEBUG via variável de ambiente
-- [ ] **4.8** Configurar ALLOWED_HOSTS apropriadamente
-- [ ] **4.9** Adicionar middleware de segurança padrão
-- [ ] **4.10** Configurar SESSION_COOKIE_AGE = 7200 (2 horas)
+- [X] **4.1** Configurar LANGUAGE_CODE = 'pt-br' em settings.py
+- [X] **4.2** Configurar TIME_ZONE = 'America/Sao_Paulo' em settings.py
+- [X] **4.3** Configurar USE_I18N = True e USE_L10N = True
+- [X] **4.4** Adicionar django.contrib.humanize ao INSTALLED_APPS
+- [X] **4.5** Configurar SECRET_KEY usando python-decouple
+- [X] **4.6** Criar arquivo .env.example com variáveis necessárias
+- [X] **4.7** Configurar DEBUG via variável de ambiente
+- [X] **4.8** Configurar ALLOWED_HOSTS apropriadamente
+- [X] **4.9** Adicionar middleware de segurança padrão
+- [X] **4.10** Configurar SESSION_COOKIE_AGE = 7200 (2 horas)
 
 ---
 

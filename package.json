@@ -1,0 +1,29 @@
+{
+  "name": "finanpy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./static/src/input.css -o ./static/css/output.css",
+    "build:watch": "npx tailwindcss -i ./static/src/input.css -o ./static/css/output.css --watch",
+    "build:minify": "npx tailwindcss -i ./static/src/input.css -o ./static/css/output.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marivaldor/finanpy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marivaldor/finanpy/issues"
+  },
+  "homepage": "https://github.com/Marivaldor/finanpy#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.18"
+  }
+}

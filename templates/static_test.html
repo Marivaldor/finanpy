@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Files Test - Finanpy</title>
+    <link rel="stylesheet" href="{% static 'css/test.css' %}">
+</head>
+<body>
+    <div class="test-static-files">
+        <h1>Static Files Test - Finanpy</h1>
+        <p>If you can see this styled correctly, static files are working!</p>
+        <p>Check the browser console for JavaScript messages.</p>
+    </div>
+    <script src="{% static 'js/test.js' %}"></script>
+</body>
+</html>

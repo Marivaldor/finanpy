@@ -264,3 +264,10 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,django
+
+# Node.js and TailwindCSS
+node_modules/
+package-lock.json
+
+# TailwindCSS generated files
+static/css/output.css

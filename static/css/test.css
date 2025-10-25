@@ -1,0 +1,13 @@
+/* Test CSS file to verify static file serving */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.test-static-files {
+    background-color: #1e293b;
+    color: #f1f5f9;
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, sans-serif;
+}
